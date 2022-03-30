@@ -1,37 +1,55 @@
-## Welcome to GitHub Pages
+## Federated Learning for Healthcare
 
-You can use the [editor on GitHub](https://github.com/intel/fl-tutorial/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+Federated Learning (FL) is increasingly important in privacy sensitive domains, such as healthcare, where sharing of private/patient data is barrier to building models that generalize well in the real world and minimize bias. This is the first time a tutorial on FL is proposed to run in conjunction with MICCAI. 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+In 2021, our group has led the largest real world federation, with a network of 59 healthcare institutions around the world. Furthermore, leveraging the collaborators of this real-world FL initiative, we led the first ever FL challenge (at MICCAI), focusing on the task of tumor segmentation [The FeTS 2021 challenge](https://miccai2021.fets.ai/). Taking into consideration the value and the interest of our community in this new paradigm for data private multi-institutional collaborations, and also building upon our experience, we proposethis tutorial on FL for healthcare, to share our knowledge with attendees across various levels of FL expertise.
 
-### Markdown
+## Organizing Team
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+- David Austin, Intel Corporation.
+- Spyridon Bakas, University of Pennsylvania.
+- Patrick Foley, Intel Corporation.
+- Alexey Gruzdev,Intel Corporation.
+- Sarthak Pati, University of Pennsylvania.
+- Olga Perepelkina, Intel Corporation.
+- Prashant Shah, Intel Corporation.
+- Micah Sheller, Intel Corporation.
 
-```markdown
-Syntax highlighted code block
+## Tutorial Description
 
-# Header 1
-## Header 2
-### Header 3
+The aim ofthis tutorial is to facilitate education on how to perform federated learning on both simulated and realworld studies. Tutorial structure focuses on specific clearly indicated parts for beginners and for more advanced attendees. Data scientists of different medical imaging communities (e.g., radiology, pathology) are considered during this tutorial on the opportunities and challenges in developing and using FL fortraining Al models acrossinstitutions using privacy preserving techniques. Weplan on covering a spectrum of techniques, from software-based approachesthat can be considered a method or a metric (e.g., differential privacy), to hardware-based trusted execution computing environments (TEEs).
 
-- Bulleted
-- List
+The motivation for the tutorial is driven by the need to train and validate deep learning models acrossdatasilos, to create models that gain knowledge from diverse patient populations and hence generalize well, mitigate bias, and pave the way towards addressing health disparities.
 
-1. Numbered
-2. List
+### Preliminary program
 
-**Bold** and _Italic_ and `Code` text
+#### Part I (2 first hours — lecture based)
+- Introduction to FL
+- Considerations for FL, based on whatwelearned from: i) the largest knownreal-world global federation [FeTS](https://www.fets.ai/), and, ii) the first ever proposal challenge on federated learning [MICCAI 2021 FeTS challenge] (https://miccai2021.fets.ai/).
 
-[Link](url) and ![Image](src)
-```
+#### Part II (2 second hours — Hands on)
+- Hands-on and interactive tutorial on simulating federations and training various segmentation and classification models, while taking into account numerousconsiderations(including but not limited to a) data size across collaborators, b) network delays in sharing model weights).
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+The data scientists and computational scientists that attend the tutorial will be able to adapt their existing centralized algorithms to a federated architecture or build new models. Non-data scientists (e.g., more clinically-oriented attendees of the CLINICAI sessions) will learn about both technical and non-technical considerations setting up federations for training medical Al models. Importantly attendees will also understand the privacy and security attack vectors and mitigations when using FL.
 
-### Jekyll Themes
+### Speakers
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/intel/fl-tutorial/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+- Spyridon Bakas, Ph.D., is an Assistant Professor at the University of Pennsylvania, focusing on computational algorithms for oncological imaging, towards improving the clinical practice.
 
-### Support or Contact
+- Patrick Foley is a senior deep learning (DL) software engineer at Intel and lead architect of OpenFL, an open-source library for FL.
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+- Olga Perepelkina, Ph.D., is a AI Product Manager at Intel, associate professor at Higher School of Economics, industrial adviser at University of Glasgow. Olga is leading product strategy of OpenFL development.
+
+- Alexey Gruzdev is Al Software Engineering Manager at Intel, leading group of engineers developing OpenFL. Prior to this role, Alexey was a DL Algorithm developer focusing on Computer Vision, in the OpenVINO project. Alexey holds a master’s degree in Computer Science from Higher School of Economics.
+
+- Mansi Sharma is a deep learning (DL) software engineer at Intel and a developer of OpenFL, an open-source library for FL.
+
+- Sarthak Pati, M.Sc., is a Sr Application Developer at the UPenn. He focuses on ML, distributed, and privacy-protected algorithms for healthcare, and currently leads the R&D of the FeTS platform.
+
+### Format
+
+Half day (afternoon), Hands-on
+
+### Proceedings
+
+In favor of open science, transparency, and further communicating the information presented during the tutorial beyond its actual lifecycle during MICCAI 2021, we intend to produce tutorial notes and be part of the MICCAI satellite event proceedings.
