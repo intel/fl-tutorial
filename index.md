@@ -8,7 +8,7 @@ In 2021, we have led the largest real world federation, with a network of 59 hea
 
 The tutorial will teach you how to use state-of-the-art open-source Python library for Federated Learning [OpenFL](https://github.com/intel/openfl).
 
-## Organizing Team
+## Organizing Committee 
 
 - David Austin, Intel Corporation.
 - Spyridon Bakas, University of Pennsylvania.
@@ -42,7 +42,7 @@ The data scientists and computational scientists that attend the tutorial will b
 
 - Patrick Foley is a senior deep learning (DL) software engineer at Intel and lead architect of OpenFL, an open-source library for FL.
 
-- Olga Perepelkina, Ph.D., is a AI Product Manager at Intel, associate professor at Higher School of Economics, industrial adviser at University of Glasgow. Olga is leading product strategy of OpenFL development.
+- Olga Perepelkina, Ph.D., is a AI Product Manager at Intel, an Assistant Professor at Higher School of Economics, Industrial Adviser at University of Glasgow. Olga is leading product strategy of OpenFL development.
 
 - Alexey Gruzdev is Al Software Engineering Manager at Intel, leading group of engineers developing OpenFL. Prior to this role, Alexey was a DL Algorithm developer focusing on Computer Vision, in the OpenVINO project. Alexey holds a master’s degree in Computer Science from Higher School of Economics.
 
