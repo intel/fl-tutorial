@@ -8,6 +8,10 @@ In 2021, we have led the largest real world federation, with a network of 59 hea
 
 The tutorial will teach you how to use state-of-the-art open-source Python library for Federated Learning [OpenFL](https://github.com/intel/openfl).
 
+## When and Where?
+
+18-22 September (one of the days), Singapore
+
 ## Organizing Committee 
 
 - David Austin, Intel Corporation.
@@ -57,3 +61,4 @@ Half day (afternoon), Hands-on
 ### Proceedings
 
 In favor of open science, transparency, and further communicating the information presented during the tutorial beyond its actual lifecycle during MICCAI 2021, we intend to produce tutorial notes and be part of the MICCAI satellite event proceedings.
+
