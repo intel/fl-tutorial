@@ -4,7 +4,7 @@ Wellcome to the Federated Learning tutorial that will be run in conjunction with
 
 Federated Learning (FL) is increasingly important in privacy sensitive domains, such as healthcare, where sharing of private/patient data is barrier to building models that generalize well in the real world and minimize bias.  
 
-In 2021, we have led the largest real world federation, with a network of 59 healthcare institutions around the world. Furthermore, leveraging the collaborators of this real-world FL initiative, we led the first ever FL challenge, focusing on the task of tumor segmentation [The FeTS 2021 challenge](https://miccai2021.fets.ai/). Taking into consideration the value and the interest of our community in this new paradigm for data private multi-institutional collaborations, and also building upon our experience, we invite you to this tutorial on FL for healthcare.
+In 2021, we have led the largest real world federation, with a network of 59 healthcare institutions around the world. Furthermore, leveraging the collaborators of this real-world FL initiative, we led the first ever FL challenge, focusing on the task of tumor segmentation [The FeTS 2021 challenge](https://miccai2021.fets.ai/). Taking into consideration the value and the interest of our community in this new paradigm for data private multi-institutional collaborations, and also building upon our experience, we organize this tutorial on FL for healthcare.
 
 The tutorial will teach you how to use state-of-the-art open-source Python library for Federated Learning [OpenFL](https://github.com/intel/openfl).
 
