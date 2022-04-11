@@ -14,7 +14,6 @@ The tutorial will teach you how to use state-of-the-art open-source Python libra
 
 ## Organizing Committee 
 
-- David Austin, Intel Corporation.
 - Spyridon Bakas, University of Pennsylvania.
 - Patrick Foley, Intel Corporation.
 - Alexey Gruzdev,Intel Corporation.
