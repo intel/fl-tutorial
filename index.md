@@ -1,6 +1,6 @@
 ## Federated Learning for Healthcare
 
-Wellcome to the Federated Learning tutorial that will be run in conjunction with the [MICCAI](https://conferences.miccai.org/2022/en/) conference!
+Welcome to the Federated Learning tutorial that will be run in conjunction with the [MICCAI](https://conferences.miccai.org/2022/en/) conference!
 
 Federated Learning (FL) is increasingly important in privacy sensitive domains, such as healthcare, where sharing of private/patient data is barrier to building models that generalize well in the real world and minimize bias.  
 
@@ -14,10 +14,10 @@ The tutorial will teach you how to use state-of-the-art open-source Python libra
 
 ## Organizing Committee 
 
-- David Austin, Intel Corporation.
+- Ujjwal Baid, University of Pennsylvania.
 - Spyridon Bakas, University of Pennsylvania.
 - Patrick Foley, Intel Corporation.
-- Alexey Gruzdev,Intel Corporation.
+- Alexey Gruzdev, Intel Corporation.
 - Sarthak Pati, University of Pennsylvania.
 - Olga Perepelkina, Intel Corporation.
 - Prashant Shah, Intel Corporation.
