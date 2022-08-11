@@ -33,7 +33,7 @@ The motivation for the tutorial is driven by the need to train and validate deep
 
 #### Part I (2 first hours — lecture based)
 - Introduction to FL
-- Considerations for FL, based on what we learned from: i) the largest know nreal-world global federation [FeTS](https://www.fets.ai/), and, ii) the first ever proposal challenge on federated learning [MICCAI 2021 FeTS challenge](https://miccai2021.fets.ai/).
+- Considerations for FL, based on what we learned from: i) the largest known real-world global federation [FeTS](https://www.fets.ai/), and, ii) the first ever proposal challenge on federated learning [MICCAI 2021 FeTS challenge](https://miccai2021.fets.ai/).
 
 #### Part II (2 second hours — Hands on)
 - Hands-on and interactive tutorial on simulating federations and training various segmentation and classification models, while taking into account numerous considerations (including but not limited to a) data size across collaborators, b) network delays in sharing model weights).
