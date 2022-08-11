@@ -19,6 +19,7 @@ The tutorial will teach you how to use state-of-the-art open-source Python libra
 - Patrick Foley, Intel Corporation.
 - Sarthak Pati, University of Pennsylvania.
 - Prashant Shah, Intel Corporation.
+- Mansi Sharma, Intel Corporation.
 - Micah Sheller, Intel Corporation.
 
 ## Tutorial Description
@@ -43,10 +44,6 @@ The data scientists and computational scientists that attend the tutorial will b
 - Spyridon Bakas, Ph.D., is an Assistant Professor at the University of Pennsylvania, focusing on computational algorithms for oncological imaging, towards improving the clinical practice.
 
 - Patrick Foley is a senior deep learning (DL) software engineer at Intel and lead architect of OpenFL, an open-source library for FL.
-
-- Olga Perepelkina, Ph.D., is a AI Product Manager at Intel, an Assistant Professor at Higher School of Economics, Industrial Adviser at University of Glasgow. Olga is leading product strategy of OpenFL development.
-
-- Alexey Gruzdev is Al Software Engineering Manager at Intel, leading group of engineers developing OpenFL. Prior to this role, Alexey was a DL Algorithm developer focusing on Computer Vision, in the OpenVINO project. Alexey holds a master’s degree in Computer Science from Higher School of Economics.
 
 - Mansi Sharma is a deep learning (DL) software engineer at Intel and a developer of OpenFL, an open-source library for FL.
 
