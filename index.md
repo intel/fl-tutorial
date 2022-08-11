@@ -17,9 +17,7 @@ The tutorial will teach you how to use state-of-the-art open-source Python libra
 - Ujjwal Baid, University of Pennsylvania.
 - Spyridon Bakas, University of Pennsylvania.
 - Patrick Foley, Intel Corporation.
-- Alexey Gruzdev, Intel Corporation.
 - Sarthak Pati, University of Pennsylvania.
-- Olga Perepelkina, Intel Corporation.
 - Prashant Shah, Intel Corporation.
 - Micah Sheller, Intel Corporation.
 
