@@ -10,16 +10,14 @@ The tutorial will teach you how to use state-of-the-art open-source Python libra
 
 ## When and Where?
 
-18-22 September (one of the days), Singapore
+22nd September at 11:50 to 15:20 (SGT time)
 
 ## Organizing Committee 
 
 - Ujjwal Baid, University of Pennsylvania.
 - Spyridon Bakas, University of Pennsylvania.
 - Patrick Foley, Intel Corporation.
-- Alexey Gruzdev, Intel Corporation.
 - Sarthak Pati, University of Pennsylvania.
-- Olga Perepelkina, Intel Corporation.
 - Prashant Shah, Intel Corporation.
 - Micah Sheller, Intel Corporation.
 
@@ -33,7 +31,7 @@ The motivation for the tutorial is driven by the need to train and validate deep
 
 #### Part I (2 first hours — lecture based)
 - Introduction to FL
-- Considerations for FL, based on what we learned from: i) the largest know nreal-world global federation [FeTS](https://www.fets.ai/), and, ii) the first ever proposal challenge on federated learning [MICCAI 2021 FeTS challenge](https://miccai2021.fets.ai/).
+- Considerations for FL, based on what we learned from: i) the largest known real-world global federation [FeTS](https://www.fets.ai/), and, ii) the first ever proposal challenge on federated learning [MICCAI 2021 FeTS challenge](https://miccai2021.fets.ai/).
 
 #### Part II (2 second hours — Hands on)
 - Hands-on and interactive tutorial on simulating federations and training various segmentation and classification models, while taking into account numerous considerations (including but not limited to a) data size across collaborators, b) network delays in sharing model weights).
