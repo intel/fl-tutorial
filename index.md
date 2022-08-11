@@ -10,7 +10,7 @@ The tutorial will teach you how to use state-of-the-art open-source Python libra
 
 ## When and Where?
 
-18-22 September (one of the days), Singapore
+22nd September at 11:50 to 15:20 (SGT time)
 
 ## Organizing Committee 
 
