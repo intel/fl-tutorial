@@ -1,0 +1,56 @@
+# This file contains all the commands executed in the video 
+#  "OpenFL in Action - Training a Model"
+#-----------------------------------------------------------------------------------------------
+## on the AGGREGATOR:
+DEMO_NAME = "MNIST"
+fx workspace create --prefix ${DEMO_NAME} --template "keras_cnn_mnist"
+
+# Optional:
+# Change plan/data.yaml
+# Check num of collaborators is right in plan/plan.yaml
+
+FQDN=hostname --all-fqdns 
+fx plan initialize -a ${FQDN}
+fx workspace certify
+fx aggregator generate-cert-request --fqdn ${FQDN}
+fx aggregator certify --fqdn ${FQDN}
+
+# Let's export the workspace onto the collaborators
+fx workspace export
+
+
+# NOTE: the export cmd will create a zip file. Choose your favourite
+# way to share that file with all the collaborators.
+# In my case, I used the scp cmd.
+
+
+#-----------------------------------------------------------------------------------------------
+## on the COLLABORATOR (assuming the zip file has been copied)
+fx workspace import --archive ${DEMO_NAME}.zip
+
+# Init the collaborators by specifying the same data_path/index as previously defined 
+# within the plan/data.yaml (if changed)
+fx collaborator generate-cert-request -d ${DATA_PATH} -n ${COL_NAME}
+
+
+#-----------------------------------------------------------------------------------------------
+# Move the zip file generated (name pattern similar to "col_${COL_NAME}_to_agg_cert_request.zip")
+# into the cert/ dir within the aggregator workspace. 
+
+## on the AGGREGATOR
+fx collaborator certify --request-pkg cert/col_${COL}_to_agg_cert_request.zip
+
+
+#-----------------------------------------------------------------------------------------------
+# Now let's move the signed certificates back to the respective collaborators
+# and import them
+fx collaborator certify --import agg_to_col_${COL_NAME}_signed_cert.zip
+
+
+#-----------------------------------------------------------------------------------------------
+# Here we go with starting the Federation!
+## on the AGGREGATOR
+Fx aggregator start
+ 
+## on the COLLABORATOR
+Fx collaborator start -n ${COL_NAME}
