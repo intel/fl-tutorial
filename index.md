@@ -30,7 +30,7 @@ The motivation for the tutorial is driven by the need to train and validate deep
 
 ### Preliminary program
 
-#### Part I (2 first hours — lecture based)
+#### Part I (First 1.5 hours — lecture based)
 - Introduction to FL
 - Considerations for FL, based on what we learned from: i) the largest known real-world global federation [FeTS](https://www.fets.ai/), and, ii) the first ever proposal challenge on federated learning [MICCAI 2021 FeTS challenge](https://miccai2021.fets.ai/).
 

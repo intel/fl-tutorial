@@ -1,0 +1,25 @@
+# This guide refers to the video tutorial on Ubuntu 20.04LTS with
+# Python3.8 natively installed
+
+# Move into your desired directory
+PYENV_NAME = "fedenv"
+
+# Basic dependencies
+sudo apt install -y git
+sudo apt install -y python3-pip
+sudo apt install -y python3.8-venv
+
+# Create python virtualenv
+python3 -m venv ${PYENV_NAME}
+
+# Activate the python virtual environment 
+source ${PYENV_NAME}/bin/activate
+
+# Get Intel OpenFL
+git clone https://github.com/intel/openfl.git
+cd openfl
+git checkout develop
+pip install .
+
+# Run the test script
+bash tests/github/test_hello_federation.sh
