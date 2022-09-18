@@ -21,6 +21,7 @@ The tutorial will teach you how to use state-of-the-art open-source Python libra
 - Prashant Shah, Intel Corporation.
 - Mansi Sharma, Intel Corporation.
 - Micah Sheller, Intel Corporation.
+- Karan Shah, Intel Corporation.
 
 ## Tutorial Description
 
@@ -46,7 +47,10 @@ Data Scientists and Computational Scientists attending this tutorial will be abl
 
 - Patrick Foley is a Senior Deep Learning (DL) Software Engineer at Intel and Lead Architect of OpenFL, an open-source library for FL.
 
-- Mansi Sharma is a Deep Learning (DL) Software Engineer at Intel and a developer of OpenFL, an open-source library for FL.
+- Mansi Sharma is a Deep Learning (DL) Software Engineer at Intel 
+and a developer of OpenFL, an open-source library for FL.
+
+- Karan Shah is an Applied Machine Learning Engineer at Intel and a developer of OpenFL. His interests span Deep Learning, Optimization Theory, Statistics and Cosmology.
 
 - Sarthak Pati, M.Sc., is a Sr. Application Developer at UPenn. He focuses on ML, distributed, and privacy-protected algorithms for healthcare, and currently leads the R&D of the FeTS platform.
 
