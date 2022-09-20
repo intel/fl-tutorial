@@ -10,7 +10,9 @@ The tutorial will teach you how to use state-of-the-art open-source Python libra
 
 ## When and Where?
 
-22nd September at 11:50 to 15:20 (SGT time)
+September 22nd from 11:50 to 15:20 (SGT time)
+
+Sign up as a virtual tutorial attendee until the day of the event at the [MICCAI Registration Page](https://conferences.miccai.org/2022/en/REGISTRATION.html)
 
 ## Organizing Committee 
 
