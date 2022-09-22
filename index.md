@@ -33,13 +33,16 @@ The motivation for the tutorial is driven by the need to train and validate deep
 
 ## Preliminary program
 
-### Part I (~1.5h, lecture based)
+### Part I (45 minutes, environment setup)
+- Get access to the Google Colab enviroment
+
+### Part II (45 minutes, lecture based)
 - Introduction to FL
 - Considerations for FL, based on what we learned from: 
   1. The largest known real-world global federation [FeTS](https://www.fets.ai/), and
   2. The first ever proposal challenge on federated learning [MICCAI 2021 FeTS challenge](https://miccai2021.fets.ai/).
 
-### Part II (~2h, Hands on)
+### Part III (~2h, Hands on)
 - Hands-on and interactive tutorial on simulating federations and training various segmentation and classification models, while taking into account numerous considerations (including but not limited to a) data size across collaborators, b) network delays in sharing model weights).
 
 Data Scientists and Computational Scientists attending this tutorial will be able to adapt their existing centralized algorithms to a federated architecture or build new models. Non-data scientists (e.g., more clinically-oriented attendees of the CLINICAI sessions) will learn about both technical and non-technical considerations setting up federations for training medical Al models. Importantly, attendees will also understand the privacy and security attack vectors and mitigations when using FL.
