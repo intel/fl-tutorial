@@ -3,6 +3,5 @@ jupyter
 matplotlib
 pandas
 medmnist
-torch==1.8.2
-torchvision==0.9.2
---extra-index-url https://download.pytorch.org/whl/lts/1.8/cu111
+torch==1.13.1
+torchvision
