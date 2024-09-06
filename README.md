@@ -1,3 +1,7 @@
+# DEPRECIATION NOTICE
+
+This repository is now deprecated in favor of fl-tutorials.org 
+
 # MICCAI 2022 Federated Learning for Healthcare Tutorial 
 This repo contains:
 - The github.io pages for the "MICCAI 2022 Federated Learning for Healthcare Tutorial". 
