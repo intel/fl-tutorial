@@ -3,5 +3,5 @@ jupyter
 matplotlib
 pandas
 medmnist
-torch==1.13.1
-torchvision
+torch==2.3.1
+torchvision==0.18.1
